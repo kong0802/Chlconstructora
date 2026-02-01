@@ -27,7 +27,6 @@ header img.logo {
 }
 
 /* Header textos */
-header h1 {font-size:2.5em; margin-bottom:10px; text-transform:uppercase;}
 header p {font-size:1.2em;}
 
 /* Navegación */
@@ -74,15 +73,14 @@ section h2 {font-size:2em; color:#0d47a1; margin-bottom:20px; text-align:center;
 footer {background:#0d47a1; color:white; text-align:center; padding:20px;}
 
 /* Responsive */
-@media(max-width:600px){header h1{font-size:2em;} nav a{display:block; margin:10px 0;}}
+@media(max-width:600px){ nav a{display:block; margin:10px 0;}}
 </style>
 </head>
 <body>
 
 <header>
-    <!-- Logo aquí -->
+    <!-- Solo el logo y subtítulo -->
     <img src="tu-logo.png" alt="CHL Constructora Logo" class="logo">
-    <h1>CHL CONSTRUCTORA</h1>
     <p>Tramitación de mano de obra española para Suiza</p>
 </header>
 
