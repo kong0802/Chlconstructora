@@ -95,4 +95,49 @@ footer {background:#0d47a1; color:white; text-align:center; padding:20px;}
 <main>
 
 <section id="inicio">
-    <h2>Quién
+    <h2>Quiénes somos</h2>
+    <p style="text-align:center; max-width:800px; margin:auto;">
+        En <strong>CHL Constructora</strong> conectamos mano de obra española cualificada con empresas en Suiza,
+        gestionando contratos, permisos y todo el proceso legal para que tus trabajadores puedan incorporarse sin problemas.
+    </p>
+</section>
+
+<section id="servicios">
+    <h2>Servicios</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Contratos laborales</h3>
+            <p>Gestionamos contratos legales para trabajadores españoles que quieran trabajar en Suiza.</p>
+        </div>
+        <div class="card">
+            <h3>Permisos de trabajo</h3>
+            <p>Nos encargamos de toda la documentación y permisos necesarios para operar legalmente.</p>
+        </div>
+        <div class="card">
+            <h3>Selección de personal</h3>
+            <p>Seleccionamos mano de obra cualificada según las necesidades de las empresas suizas.</p>
+        </div>
+        <div class="card">
+            <h3>Asesoría completa</h3>
+            <p>Ofrecemos acompañamiento legal y laboral durante todo el proceso de incorporación.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p style="text-align:center;">📞 Teléfono / WhatsApp: +41 76 740 15 41</p>
+    <p style="text-align:center;">📧 Email: contacto@chlconstructora.com</p>
+    <p style="text-align:center;">🌍 España – Suiza</p>
+</section>
+
+</main>
+
+<a href="https://wa.me/41767401541" class="whatsapp-float" target="_blank">WhatsApp</a>
+
+<footer>
+    <p>© 2026 - CHL Constructora | Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
