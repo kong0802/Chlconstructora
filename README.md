@@ -27,6 +27,7 @@ header img.logo {
 }
 
 /* Header textos */
+header h1 {font-size:2.5em; margin-bottom:10px;}
 header p {font-size:1.2em;}
 
 /* Navegación */
@@ -53,6 +54,13 @@ section h2 {font-size:2em; color:#0d47a1; margin-bottom:20px; text-align:center;
 .card h3 {color:#0d47a1; margin-bottom:15px;}
 .card p {line-height:1.5;}
 
+/* Proyectos */
+.projects {display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; margin-top:30px;}
+.project {background:white; border-radius:10px; overflow:hidden; box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+.project img {width:100%; display:block;}
+.project-description {padding:15px;}
+.project-description h4 {color:#0d47a1; margin-bottom:10px;}
+
 /* WhatsApp flotante */
 .whatsapp-float {
     position:fixed;
@@ -73,20 +81,22 @@ section h2 {font-size:2em; color:#0d47a1; margin-bottom:20px; text-align:center;
 footer {background:#0d47a1; color:white; text-align:center; padding:20px;}
 
 /* Responsive */
-@media(max-width:600px){ nav a{display:block; margin:10px 0;}}
+@media(max-width:600px){header h1{font-size:2em;} nav a{display:block; margin:10px 0;}}
 </style>
 </head>
 <body>
 
 <header>
-    <!-- Solo el logo y subtítulo -->
-    <img src="tu-logo.png" alt="CHL Constructora Logo" class="logo">
+    <!-- Logo aquí -->
+    <img src="logo.png" alt="CHL Constructora Logo" class="logo">
+    <h1>CHL Constructora</h1>
     <p>Tramitación de mano de obra española para Suiza</p>
 </header>
 
 <nav>
     <a href="#inicio">Inicio</a>
     <a href="#servicios">Servicios</a>
+    <a href="#proyectos">Proyectos</a>
     <a href="#contacto">Contacto</a>
 </nav>
 
@@ -118,6 +128,33 @@ footer {background:#0d47a1; color:white; text-align:center; padding:20px;}
         <div class="card">
             <h3>Asesoría completa</h3>
             <p>Ofrecemos acompañamiento legal y laboral durante todo el proceso de incorporación.</p>
+        </div>
+    </div>
+</section>
+
+<section id="proyectos">
+    <h2>Proyectos destacados</h2>
+    <div class="projects">
+        <div class="project">
+            <img src="https://via.placeholder.com/400x250" alt="Proyecto 1">
+            <div class="project-description">
+                <h4>Proyecto Residencial</h4>
+                <p>Construcción y gestión de personal para un complejo residencial en Suiza.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="https://via.placeholder.com/400x250" alt="Proyecto 2">
+            <div class="project-description">
+                <h4>Obra Comercial</h4>
+                <p>Selección de mano de obra para la construcción de un centro comercial.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="https://via.placeholder.com/400x250" alt="Proyecto 3">
+            <div class="project-description">
+                <h4>Remodelación</h4>
+                <p>Tramitamos todo el personal para remodelaciones industriales en Suiza.</p>
+            </div>
         </div>
     </div>
 </section>
