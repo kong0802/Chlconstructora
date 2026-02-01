@@ -18,12 +18,12 @@ header {
     color:white;
     text-align:center;
     padding:40px 20px;
-    position:relative;
 }
 header img.logo {
-    max-height:80px;
+    max-height:60px;
+    width:auto;
     display:block;
-    margin:0 auto 15px auto;
+    margin:0 auto 20px auto;
 }
 
 /* Header textos */
@@ -48,8 +48,20 @@ section {margin-bottom:60px;}
 section h2 {font-size:2em; color:#0d47a1; margin-bottom:20px; text-align:center;}
 
 /* Tarjetas de servicios */
-.services {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; margin-top:30px;}
-.card {background:white; border-radius:10px; padding:20px; box-shadow:0 4px 6px rgba(0,0,0,0.1); text-align:center; transition:transform 0.3s;}
+.services {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+.card {
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 4px 6px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:transform 0.3s;
+}
 .card:hover {transform:translateY(-5px);}
 .card h3 {color:#0d47a1; margin-bottom:15px;}
 .card p {line-height:1.5;}
@@ -71,16 +83,23 @@ section h2 {font-size:2em; color:#0d47a1; margin-bottom:20px; text-align:center;
 .whatsapp-float:hover {background:#1ebe57;}
 
 /* Footer */
-footer {background:#0d47a1; color:white; text-align:center; padding:20px;}
+footer {
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
 
 /* Responsive */
-@media(max-width:600px){header h1{font-size:2em;} nav a{display:block; margin:10px 0;}}
+@media(max-width:600px){
+    header h1{font-size:2em;}
+    nav a{display:block; margin:10px 0;}
+}
 </style>
 </head>
 <body>
 
 <header>
-    <!-- Logo aquí -->
     <img src="logo.png" alt="CHL Constructora Logo" class="logo">
     <h1>CHL Constructora</h1>
     <p>Tramitación de mano de obra española para Suiza</p>
